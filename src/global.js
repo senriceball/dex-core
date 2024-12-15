@@ -648,6 +648,6 @@ let fetchDatainterval = setInterval(function() {
         fetchData(searchParams)
     }
     else{
-        footerP(`For the best experience, please visit ${window.location.href}`)
+        fetchData(searchParams)
     }
 }, 100)  
